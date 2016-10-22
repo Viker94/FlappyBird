@@ -6,13 +6,14 @@ public class PlayerMovement : MonoBehaviour {
     public Vector2 jumpForce = new Vector2(0, 300);
     Rigidbody2D rg;
     AudioSource saw;
-    Animator animator;
+    Animation animator;
     public static int score = 0;
+    public Sprite deathSprite;
 
     void Start()
     {
         rg = GetComponent<Rigidbody2D>();
-        animator = transform.GetComponentInChildren<Animator>();
+        animator = GetComponent<Animation>();
         saw = GameObject.FindObjectOfType<AudioSource>();
     }
 
@@ -26,13 +27,13 @@ public class PlayerMovement : MonoBehaviour {
         Vector2 screenPosition = Camera.main.WorldToScreenPoint(transform.position);
         if(screenPosition.y > Screen.height || screenPosition.y < 0)
         {
-            Die();
+            StartCoroutine(Die());
         }
 	}
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        Die();
+        StartCoroutine(Die());
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -40,10 +41,13 @@ public class PlayerMovement : MonoBehaviour {
         score++;
     }
 
-    void Die()
+    IEnumerator Die()
     {
         saw.Play();
-        animator.SetTrigger("smierc");
+        GetComponent<SpriteRenderer>().sprite = deathSprite;
+        GetComponent<Animator>().Stop();
         GetComponent<Rigidbody2D>().MoveRotation(180);
+        yield return new WaitForSeconds(0.25f);
+        Time.timeScale = 0;
     }
 }

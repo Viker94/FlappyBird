@@ -17,11 +17,5 @@ public class GenereteHoney : MonoBehaviour {
         Destroy(instance, 10);
     }
 
-    void OnGUI()
-    {
-        GUI.color = Color.black;
-        GUILayout.Label("Score: " + PlayerMovement.score);
-    }
-
 
 }
