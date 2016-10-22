@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour {
     Rigidbody2D rg;
     AudioSource saw;
     Animator animator;
+    public static int score = 0;
+
     void Start()
     {
         rg = GetComponent<Rigidbody2D>();
@@ -31,6 +33,11 @@ public class PlayerMovement : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D col)
     {
         Die();
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        score++;
     }
 
     void Die()

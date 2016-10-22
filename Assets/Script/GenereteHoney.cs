@@ -4,7 +4,8 @@ using System.Collections;
 public class GenereteHoney : MonoBehaviour {
 
     public GameObject honey;
-    public GameObject instance;
+    GameObject instance;
+
 	// Use this for initialization
 	void Start () {
         InvokeRepeating("CreateObstacle", 0.5F, 1.5F);
@@ -14,6 +15,12 @@ public class GenereteHoney : MonoBehaviour {
     {
         instance = (GameObject) Instantiate(honey);
         Destroy(instance, 10);
+    }
+
+    void OnGUI()
+    {
+        GUI.color = Color.black;
+        GUILayout.Label("Score: " + PlayerMovement.score);
     }
 
 
