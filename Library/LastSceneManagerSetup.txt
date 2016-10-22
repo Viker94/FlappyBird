@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/New Folder/Hmmm.unity
+  isLoaded: 1
+  isActive: 1
