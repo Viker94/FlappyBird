@@ -16,7 +16,7 @@ Platform assembly: C:\Users\Marcin\Desktop\Programy\PiPG\FlappyBird\EXE\FlappyBe
 Loading C:\Users\Marcin\Desktop\Programy\PiPG\FlappyBird\EXE\FlappyBee_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Marcin\Desktop\Programy\PiPG\FlappyBird\EXE\FlappyBee_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Marcin\Desktop\Programy\PiPG\FlappyBird\EXE\FlappyBee_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.093 seconds
+- Completed reload, in  0.102 seconds
 Platform assembly: C:\Users\Marcin\Desktop\Programy\PiPG\FlappyBird\EXE\FlappyBee_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Marcin\Desktop\Programy\PiPG\FlappyBird\EXE\FlappyBee_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
@@ -24,6 +24,6 @@ desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.563651 ms
+UnloadTime: 1.534199 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 69c -> priority: 1 
+  Thread -> id: 31b0 -> priority: 1 
