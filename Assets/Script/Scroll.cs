@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BackgroundMove : MonoBehaviour {
+public class Scroll : MonoBehaviour {
 
-    public float speed = 0.5F;
+    public float speed = 0.5f;
+
 	// Use this for initialization
 	void Start () {
+	    
 	}
 	
 	// Update is called once per frame
