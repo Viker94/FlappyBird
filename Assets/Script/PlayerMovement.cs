@@ -48,6 +48,7 @@ public class PlayerMovement : MonoBehaviour {
         GetComponent<Animator>().Stop();
         GetComponent<Rigidbody2D>().MoveRotation(180);
         yield return new WaitForSeconds(0.25f);
+        EndGame.zgon = true;
         Time.timeScale = 0;
     }
 }
