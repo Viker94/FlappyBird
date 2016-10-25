@@ -16,6 +16,7 @@ public class EndGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Time.timeScale = 0;
         if (Time.timeScale == 0)
         {
             GameObject.Find("Score").GetComponent<Text>().text = "Score: " + PlayerMovement.score; if (PlayerMovement.score > highscore)
