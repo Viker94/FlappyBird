@@ -16,26 +16,10 @@ Platform assembly: C:\Users\Marcin\Desktop\Programy\PiPG\FlappyBird\EXE\FlappyBe
 Loading C:\Users\Marcin\Desktop\Programy\PiPG\FlappyBird\EXE\FlappyBee_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Marcin\Desktop\Programy\PiPG\FlappyBird\EXE\FlappyBee_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Marcin\Desktop\Programy\PiPG\FlappyBird\EXE\FlappyBee_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.114 seconds
+- Completed reload, in  0.094 seconds
 Platform assembly: C:\Users\Marcin\Desktop\Programy\PiPG\FlappyBird\EXE\FlappyBee_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Marcin\Desktop\Programy\PiPG\FlappyBird\EXE\FlappyBee_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 1.635050 ms
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 10.623809 ms
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 247.
-Total: 0.282474 ms (FindLiveObjects: 0.029452 ms CreateObjectMapping: 0.021419 ms MarkObjects: 0.196348 ms  DeleteObjects: 0.009817 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.696592 ms
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 247.
-Total: 0.249005 ms (FindLiveObjects: 0.023651 ms CreateObjectMapping: 0.011156 ms MarkObjects: 0.194563 ms  DeleteObjects: 0.009371 ms)
-
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1ce8 -> priority: 1 
